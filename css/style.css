@@ -33,7 +33,12 @@ button{
     width: 110px;
     height: 40px;
 }
-
 #price{
     color: #F0A83E;
 }
+footer{
+    background-color: #3C2313;
+    color: white;
+}
+/*cambiar br para separar textos
+poner una clase a los iconos para configurar cada uno*/
