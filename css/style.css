@@ -1,0 +1,39 @@
+.superior{
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+nav{
+    background-color: #F0A83E;
+    height: 150px;
+
+}
+#viñeta{
+    font-weight: bold;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.banner{
+    background-image: url(../img/baner.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+article{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+button{
+    background-color: #F0A83E;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    width: 110px;
+    height: 40px;
+}
+
+#price{
+    color: #F0A83E;
+}
