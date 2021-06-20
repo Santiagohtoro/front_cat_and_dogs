@@ -3,10 +3,19 @@
     color: white;
     height: 20px;
 }
+.navegar, .opciones {
+    display:inline-block;
+}
+#logo{
+    height: 30px;
+}
+
 nav{
     background-color: #F0A83E;
-    height: 150px;
-
+    height: 40px;
+}
+li img{
+    height: 18px;
 }
 #viñeta{
     font-weight: bold;
@@ -20,6 +29,7 @@ nav{
     background-size: cover;
     background-repeat: no-repeat;
     height: 600px;
+    align-content: flex-end;
 }
 article{
     width: 200px;
