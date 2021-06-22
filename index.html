@@ -26,28 +26,30 @@
             <a href="#">     <img src="./img/Frontcat&dog.PNG" id="logo" ></a>
             <ul class="navegar">
                 <li class="opciones">
-                    <img src="./img/klipartz.com.png" ><a href="#" id="viñeta">Categorías</a>
+                    <img src="./img/klipartz.com.png" ><a href="#" id="opcion">Categorías</a>
                 </li>
                 <li class="opciones">
-                    <img src="./img/klipartz.com.png" ><a href="#" id="viñeta">Pets</a>
+                    <img src="./img/klipartz.com.png" ><a href="#" id="opcion">Pets</a>
                 </li>
                 <li class="opciones">
-                    <img src="./img/klipartz.com.png" ><a href="#" id="viñeta">Nosotros</a>
+                    <img src="./img/klipartz.com.png" ><a href="#" id="opcion">Nosotros</a>
                 </li>
                 <li class="opciones">
-                    <img src="./img/klipartz.com.png" ><a href="#" id="viñeta">Contactanos</a>
+                    <img src="./img/klipartz.com.png" ><a href="#" id="opcion">Contactanos</a>
                 </li>
             </ul>
         </nav>
     </header>
     <div class="banner">
-        <h2>¡Es un placer tenerte aquí!</h2>
-        <p>¡Comederos en descuento!</p>
-        <button>COMEDEROS</button>
+        <section class="alinear">
+            <h2>¡Es un placer tenerte aquí!</h2>
+            <p>¡Comederos en descuento!</p>
+            <button>COMEDEROS</button>
+        </section>
     </div>
     <br>
     <br>
-    <img src="./img/klipartz.com.png" style="width: 50px; height: 50px;">
+    <img class="huella"src="./img/klipartz.com.png" >
     <h2>Productos Destacados</h2>
     <p>Comederos - Accesorios - Comida</p>
     <br>
@@ -71,45 +73,47 @@
     </section>
     <br><br>
     <h3>Contáctanos</h3>
-    <div style="width:200px; height: 30px; text-align: center; background-color: #3C2313; border-radius: 10px;">
-        <input type="text" name="Nombre y Apellido">
+    <div>
+        <input class="entrada" type="text" name="Nombre y Apellido">
     </div>
     <br>
-    <div style="width:200px; height: 30px; text-align: center; background-color: #3C2313; border-radius: 10px;">
-        <input type="text" name="Ingresa tu correo electronico">
+    <div>
+        <input class="entrada" type="text" name="Ingresa tu correo electronico">
     </div>
     <br>
-    <div style="width:200px; height: 30px; text-align: center; background-color: #3C2313; border-radius: 10px;">
-        <input type="text" name="Telefono">
+    <div>
+        <input class="entrada" type="text" name="Telefono">
     </div>
     <br>
-    <button style="width: 100px; height: 35px; border-radius: 10px;">Resetear</button>
-    <button style="width: 100px; height: 35px; border-radius: 10px;">Enviar</button>
+    <button class="reset">Resetear</button>
+    <button>Enviar</button>
     <br>
     <br>
     <br>
     <footer>
-        <p><b>Suscribete para mas novedades</b></p>
-        <input style="border-radius: 10px; width: 200px; height: 30px;" type="text" name="Telefono">
-        <button style="width: 100px; height: 35px; border-radius: 10px;">Suscribirme</button>
+        <section class="subs">
+            <span class="suscripcion">Suscribete para mas novedades</span>
+            <input class="tel" type="text" name="Telefono">
+            <button>Suscribirme</button>
+        </section>
         <br><br><br>
-        <img src="./img/ubicacion.png" style="width: 50px; height: 50px;">
+        <img src="./img/ubicacion.png" class="final">
         <a><strong>Localidad</strong></a>
         <br>
         <a>Calle - provincia</a>
         <br><br>
-        <img src="./img/telefono.png" style="width: 50px; height: 50px;">
+        <img class="final" src="./img/telefono.png">
         <a><strong>Telefono</strong></a>
-        <img src="./img/Frontcat&dog.PNG" style="height: 30px ;" align="right">
+        <img class="log" src="./img/Frontcat&dog.PNG">
         <br>
         <a>Numero de telefono</a>
         <br><br>
-        <img src="./img/correo.png" style="width: 50px; height: 50px;">
+        <img src="./img/correo.png" class="final">
         <a><strong>Correo electronico</strong></a>
         <br>
         <a>Direccion de correo</a>
         <br><br>
-        <div align="center">
+        <div class="ultimo" align="center">
         <spam>Todos los derechos reservados Front End</spam>
         </div>
     </footer>
